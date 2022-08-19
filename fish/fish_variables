@@ -9,7 +9,7 @@ SETUVAR __fish_initialized:3400
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
 SETUVAR _fisher_fabioantunes_2F_fish_2D_nvm_files:\x7e/\x2econfig/fish/functions/__nvm_run\x2efish\x1e\x7e/\x2econfig/fish/functions/node\x2efish\x1e\x7e/\x2econfig/fish/functions/npm\x2efish\x1e\x7e/\x2econfig/fish/functions/npx\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm_alias_command\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm_alias_function\x2efish\x1e\x7e/\x2econfig/fish/functions/yarn\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
-SETUVAR _fisher_plugins:jethrokuan/z\x1efabioantunes/fish\x2dnvm\x1eedc/bass
+SETUVAR _fisher_plugins:jethrokuan/z\x1efabioantunes/fish\x2dnvm\x1eedc/bass\x1esimnalamburt/shellder
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
