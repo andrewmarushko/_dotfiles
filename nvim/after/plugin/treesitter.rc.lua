@@ -20,7 +20,17 @@ ts.setup {
     "swift",
     "css",
     "html",
-    "lua"
+    "lua",
+    "go",
+    "gitignore",
+    "graphql",
+    "javascript",
+    "jsdoc",
+    "markdown",
+    "regex",
+    "scss",
+    "solidity",
+    "typescript"
   },
   autotag = {
     enable = true,
