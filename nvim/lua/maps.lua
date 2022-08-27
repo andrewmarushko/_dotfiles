@@ -9,6 +9,9 @@ keymap.set('n', '-', '<C-x>')
 -- Delete a word backwards
 keymap.set('n', 'dw', 'vb"_d')
 
+-- Disable highlight after searching
+keymap.set('n', 'noh', ':noh<CR>')
+
 -- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
