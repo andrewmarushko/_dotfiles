@@ -25,7 +25,7 @@ font:
   italic:
     family: Hack Nerd Font
     style: Italic
-  size: 13
+  size: 12
   use_thin_strokes: true
 
 cursor:
@@ -71,4 +71,4 @@ colors:
 
 key_bindings:
   - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
-
+  - { key: Space,  mods: Shift|Control, mode: ~Search, action: ToggleViMode }
