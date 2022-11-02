@@ -39,5 +39,5 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/opt/homebrew/bin\x1e\x1b\x5b1mFish\x20nvm\x3a\x1b\x28B\x1b\x5bm\x20\x27yarn\x27\x20is\x20currently\x20not\x20installed\x2c\x20try\x20running\x20npm\x20i\x20\x2dg\x20yarn
+SETUVAR fish_user_paths:/opt/homebrew/bin\x1e\x1b\x5b1mFish\x20nvm\x3a\x1b\x28B\x1b\x5bm\x20\x27yarn\x27\x20is\x20currently\x20not\x20installed\x2c\x20try\x20running\x20npm\x20i\x20\x2dg\x20yarn\x1e/Users/andrewmarushko/\x2efzf/bin
 SETUVAR theme_nerd_fonts:yes
