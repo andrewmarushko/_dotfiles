@@ -31,6 +31,11 @@ set -gx PATH node_modules/.bin $PATH
 set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
 
+# VIM KEYBINDS
+function vi_mode_user_key_bindings
+    bind \el  suppress-autosuggestion
+end
+
 # NVM
 function __check_rvm --on-variable PWD --description 'Do nvm stuff'
   status --is-command-substitution; and return
