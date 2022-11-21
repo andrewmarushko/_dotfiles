@@ -36,9 +36,12 @@ return packer.startup(function(use)
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
+	use("ap/vim-css-color")
+	use("nvim-tree/nvim-tree.lua")
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
+	use("nvim-telescope/telescope-file-browser.nvim")
 	-- essential plugins
 	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
 	use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
@@ -47,7 +50,10 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 
 	-- file explorer
-	use("nvim-tree/nvim-tree.lua")
+	use({
+		"nvim-treesitter/nvim-treesitter",
+		run = ":TSUpdate",
+	})
 
 	-- vs-code like icons
 	use("kyazdani42/nvim-web-devicons")
@@ -83,14 +89,6 @@ return packer.startup(function(use)
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
-
-	-- treesitter configuration
-	use({
-		"nvim-treesitter/nvim-treesitter",
-		run = function()
-			require("nvim-treesitter.install").update({ with_sync = true })
-		end,
-	})
 
 	-- auto closing
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
