@@ -2,7 +2,7 @@ local opt = vim.opt -- for conciseness
 
 -- line numbers
 opt.relativenumber = true
-opt.number = true 
+opt.number = true
 
 -- tabs & indentatoin
 opt.tabstop = 2
@@ -36,5 +36,3 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
-
-
